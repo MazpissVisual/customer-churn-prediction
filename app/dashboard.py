@@ -51,7 +51,7 @@ def train_model(df):
     return model, X.columns.tolist(), X_test, y_test
 
 
-st.title("📊 Customer Churn Prediction Dashboard")
+st.title("Customer Churn Prediction Dashboard")
 st.caption("Rumah Digicraft — Data Science Portfolio Project")
 
 data_path = st.sidebar.text_input(
@@ -66,7 +66,7 @@ except FileNotFoundError:
 
 model, feature_cols, X_test, y_test = train_model(df)
 
-tab1, tab2, tab3 = st.tabs(["📈 Overview", "🔍 Segment Analysis", "🎯 Prediksi Individual"])
+tab1, tab2, tab3 = st.tabs(["Overview", "Segment Analysis", "Prediksi Individual"])
 
 with tab1:
     col1, col2, col3 = st.columns(3)
