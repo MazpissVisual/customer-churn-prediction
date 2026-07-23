@@ -55,7 +55,7 @@ st.title("📊 Customer Churn Prediction Dashboard")
 st.caption("Rumah Digicraft — Data Science Portfolio Project")
 
 data_path = st.sidebar.text_input(
-    "Path dataset (CSV)", value="data/sample_telco_churn.csv"
+    "Path dataset (CSV)", value="data/WA_Fn-UseC_-Telco-Customer-Churn.csv"
 )
 
 try:
