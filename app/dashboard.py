@@ -145,9 +145,9 @@ with tab3:
 
         st.metric("Probabilitas Churn", f"{proba * 100:.1f}%")
         if proba > 0.5:
-            st.warning("⚠️ Pelanggan ini berisiko tinggi churn. Pertimbangkan program retensi.")
+            st.warning("Pelanggan ini berisiko tinggi churn. Pertimbangkan program retensi.")
         else:
-            st.success("✅ Pelanggan ini relatif aman dari risiko churn.")
+            st.success("Pelanggan ini relatif aman dari risiko churn.")
 
 st.sidebar.markdown("---")
 st.sidebar.info(
