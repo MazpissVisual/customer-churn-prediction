@@ -2,17 +2,17 @@
 
 Portfolio project — memprediksi pelanggan telco yang berpotensi berhenti berlangganan (churn), lengkap dengan interpretasi model dan rekomendasi bisnis.
 
-## 🎯 Tujuan Project
+##  Tujuan Project
 
 Menjawab pertanyaan bisnis: *pelanggan seperti apa yang paling berisiko churn, dan tindakan retensi apa yang paling relevan untuk masing-masing segmen?*
 
-## 🧰 Tech Stack
+##  Tech Stack
 
 - **Python**: pandas, numpy, scikit-learn, imbalanced-learn, xgboost, shap
 - **Visualisasi**: matplotlib, seaborn
 - **Dashboard**: Streamlit
 
-## 📁 Struktur Folder
+##  Struktur Folder
 
 ```
 customer-churn-portfolio/
@@ -26,7 +26,7 @@ customer-churn-portfolio/
 └── README.md
 ```
 
-## 📊 Dataset
+##  Dataset
 
 Project ini didesain untuk **Telco Customer Churn** dari Kaggle:
 https://www.kaggle.com/datasets/blastchar/telco-customer-churn
@@ -38,7 +38,7 @@ https://www.kaggle.com/datasets/blastchar/telco-customer-churn
 
 > Repo ini sudah menyertakan `data/sample_telco_churn.csv` — dataset sintetis dengan skema kolom identik, dibuat khusus supaya notebook & dashboard bisa langsung dijalankan tanpa perlu download apa pun terlebih dahulu.
 
-## 🔬 Alur Analisis (lihat notebook)
+##  Alur Analisis (lihat notebook)
 
 1. **EDA** — distribusi churn, pola berdasarkan tenure, contract, internet service, dll.
 2. **Data Cleaning & Feature Engineering** — handling missing value, tenure grouping, encoding.
@@ -48,7 +48,7 @@ https://www.kaggle.com/datasets/blastchar/telco-customer-churn
 6. **Interpretasi Model** — SHAP summary plot untuk memahami fitur paling berpengaruh.
 7. **Business Insight** — analisis segmen risiko + rekomendasi retensi konkret.
 
-## 🚀 Cara Menjalankan
+##  Cara Menjalankan
 
 ```bash
 # 1. Install dependencies
@@ -61,15 +61,3 @@ jupyter notebook notebooks/01_churn_prediction.ipynb
 streamlit run app/dashboard.py
 ```
 
-## 📌 Catatan Penting Sebelum Dipakai Melamar Kerja
-
-Notebook ini sudah **tervalidasi jalan tanpa error** (27 cell, 0 error) menggunakan data sintetis. Sebelum dipakai sebagai portfolio final:
-
-1. **Ganti dataset** ke data asli Kaggle, jalankan ulang seluruh notebook.
-2. **Update bagian insight & rekomendasi bisnis** di bagian akhir notebook — angka di versi ini adalah template berdasarkan pola umum, bukan hasil final dari data asli.
-3. Tambahkan interpretasi personal di tiap bagian (kenapa milih algoritma X, kenapa metric Y lebih relevan) — ini yang biasanya ditanyakan saat wawancara.
-4. Screenshot dashboard atau deploy ke Streamlit Community Cloud (gratis) supaya recruiter bisa akses langsung via link.
-
-## 👤 Author
-
-Dibuat sebagai bagian dari portfolio data science.
