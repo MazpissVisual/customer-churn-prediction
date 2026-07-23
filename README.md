@@ -2,6 +2,9 @@
 
 Portfolio project — memprediksi pelanggan telco yang berpotensi berhenti berlangganan (churn), lengkap dengan interpretasi model dan rekomendasi bisnis.
 
+## 🔗 Live Demo
+Dashboard interaktif: https://customer-churn-prediction-chx2rwx5d4m8avjnhaxnmr.streamlit.app
+
 ##  Tujuan Project
 
 Menjawab pertanyaan bisnis: *pelanggan seperti apa yang paling berisiko churn, dan tindakan retensi apa yang paling relevan untuk masing-masing segmen?*
